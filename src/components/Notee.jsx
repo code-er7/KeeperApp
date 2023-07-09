@@ -3,6 +3,7 @@ import React from "react";
 
 function Note(props) {
     function handelClick(event) {
+        console.log(props.id);
         props.onDelete(props.id)
 
     }
